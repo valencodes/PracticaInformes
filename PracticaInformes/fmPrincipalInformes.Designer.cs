@@ -105,6 +105,7 @@
             this.btPaisesRentaContinentes.TabIndex = 2;
             this.btPaisesRentaContinentes.Text = "Países con Renta por Continentes";
             this.btPaisesRentaContinentes.UseVisualStyleBackColor = true;
+            this.btPaisesRentaContinentes.Click += new System.EventHandler(this.btPaisesRentaContinentes_Click);
             // 
             // btPaises1Continente
             // 

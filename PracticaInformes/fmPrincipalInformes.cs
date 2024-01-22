@@ -31,5 +31,10 @@ namespace PracticaInformes
         {
             new fmPaisesRenta().ShowDialog();
         }
+
+        private void btPaisesRentaContinentes_Click(object sender, EventArgs e)
+        {
+            new fmRentaContinente().ShowDialog();
+        }
     }
 }
