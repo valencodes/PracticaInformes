@@ -16,5 +16,10 @@ namespace PracticaInformes
         {
             InitializeComponent();
         }
+
+        private void fmPrincipalInformes_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

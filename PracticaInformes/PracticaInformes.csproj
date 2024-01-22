@@ -95,6 +95,9 @@
     <EmbeddedResource Include="fmPaisesRenta.resx">
       <DependentUpon>fmPaisesRenta.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="fmPrincipalInformes.resx">
+      <DependentUpon>fmPrincipalInformes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="fmRentaContinente.resx">
       <DependentUpon>fmRentaContinente.cs</DependentUpon>
     </EmbeddedResource>
