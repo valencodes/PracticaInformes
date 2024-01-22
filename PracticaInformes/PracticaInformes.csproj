@@ -138,6 +138,7 @@
     <EmbeddedResource Include="ReportAlfabetico.rdlc" />
     <EmbeddedResource Include="ReportAlfabetico2.rdlc" />
     <EmbeddedResource Include="ReportPaises.rdlc" />
+    <EmbeddedResource Include="ReportPaisesContinente.rdlc" />
     <EmbeddedResource Include="ReportPaisesRenta.rdlc" />
     <EmbeddedResource Include="ReportRentaContinente.rdlc" />
     <None Include="bd_paisesDataSet.xsc">

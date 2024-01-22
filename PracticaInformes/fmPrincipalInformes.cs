@@ -41,5 +41,10 @@ namespace PracticaInformes
         {
             new fmPaisesAlfabeticamente().ShowDialog();
         }
+
+        private void btPaises1Continente_Click(object sender, EventArgs e)
+        {
+            new fmPaisesContinente().ShowDialog();
+        }
     }
 }

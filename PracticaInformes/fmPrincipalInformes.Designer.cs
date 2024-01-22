@@ -118,6 +118,7 @@
             this.btPaises1Continente.TabIndex = 2;
             this.btPaises1Continente.Text = "Países de 1 Continente";
             this.btPaises1Continente.UseVisualStyleBackColor = true;
+            this.btPaises1Continente.Click += new System.EventHandler(this.btPaises1Continente_Click);
             // 
             // btAcercade
             // 
