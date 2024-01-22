@@ -64,6 +64,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="bd_paisesDataSet.cs">
+      <DependentUpon>bd_paisesDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="bd_paisesDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

@@ -42,5 +42,16 @@ namespace PracticaInformes.Properties {
                 return ((string)(this["bd_paisesConnectionString1"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\\bin\\Debug\\datos\\bd_" +
+            "paises.accdb")]
+        public string bd_paisesConnectionString2 {
+            get {
+                return ((string)(this["bd_paisesConnectionString2"]));
+            }
+        }
     }
 }
