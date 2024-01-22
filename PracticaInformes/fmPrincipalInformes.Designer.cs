@@ -70,6 +70,7 @@
             this.btPaises.TabIndex = 2;
             this.btPaises.Text = "Países";
             this.btPaises.UseVisualStyleBackColor = true;
+            this.btPaises.Click += new System.EventHandler(this.btPaises_Click);
             // 
             // btPaisesRenta
             // 

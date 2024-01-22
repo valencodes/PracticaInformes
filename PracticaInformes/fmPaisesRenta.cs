@@ -29,6 +29,16 @@ namespace PracticaInformes
         {
             // TODO: esta línea de código carga datos en la tabla 'bd_paisesDataSet.paises' Puede moverla o quitarla según sea necesario.
             this.paisesTableAdapter.Fill(this.bd_paisesDataSet.paises);
+            // TODO: esta línea de código carga datos en la tabla 'bd_paisesDataSet.paises' Puede moverla o quitarla según sea necesario.
+            this.paisesTableAdapter.Fill(this.bd_paisesDataSet.paises);
+
+        }
+
+        private void paisesBindingNavigatorSaveItem_Click_1(object sender, EventArgs e)
+        {
+            this.Validate();
+            this.paisesBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.bd_paisesDataSet);
 
         }
     }

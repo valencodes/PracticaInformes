@@ -988,7 +988,7 @@ namespace PracticaInformes.bd_paisesDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.OleDb.OleDbConnection();
-            this._connection.ConnectionString = global::PracticaInformes.Properties.Settings.Default.bd_paisesConnectionString;
+            this._connection.ConnectionString = global::PracticaInformes.Properties.Settings.Default.bd_paisesConnectionString1;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]

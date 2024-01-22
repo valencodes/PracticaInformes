@@ -99,7 +99,7 @@
             this.paisesBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.paisesBindingNavigator.Name = "paisesBindingNavigator";
             this.paisesBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.paisesBindingNavigator.Size = new System.Drawing.Size(940, 25);
+            this.paisesBindingNavigator.Size = new System.Drawing.Size(1089, 25);
             this.paisesBindingNavigator.TabIndex = 0;
             this.paisesBindingNavigator.Text = "bindingNavigator1";
             // 
@@ -195,13 +195,13 @@
             this.paisesBindingNavigatorSaveItem.Name = "paisesBindingNavigatorSaveItem";
             this.paisesBindingNavigatorSaveItem.Size = new System.Drawing.Size(23, 23);
             this.paisesBindingNavigatorSaveItem.Text = "Guardar datos";
-            this.paisesBindingNavigatorSaveItem.Click += new System.EventHandler(this.paisesBindingNavigatorSaveItem_Click);
+            this.paisesBindingNavigatorSaveItem.Click += new System.EventHandler(this.paisesBindingNavigatorSaveItem_Click_1);
             // 
             // fmPaisesContinente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(940, 548);
+            this.ClientSize = new System.Drawing.Size(1089, 658);
             this.Controls.Add(this.paisesBindingNavigator);
             this.Name = "fmPaisesContinente";
             this.Text = "fmPaisesContinente";
