@@ -36,5 +36,10 @@ namespace PracticaInformes
         {
             new fmRentaContinente().ShowDialog();
         }
+
+        private void btPaisesAlfabeticamente_Click(object sender, EventArgs e)
+        {
+            new fmPaisesAlfabeticamente().ShowDialog();
+        }
     }
 }

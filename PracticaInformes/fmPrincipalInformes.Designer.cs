@@ -94,6 +94,7 @@
             this.btPaisesAlfabeticamente.TabIndex = 2;
             this.btPaisesAlfabeticamente.Text = "Países Alfabéticamente";
             this.btPaisesAlfabeticamente.UseVisualStyleBackColor = true;
+            this.btPaisesAlfabeticamente.Click += new System.EventHandler(this.btPaisesAlfabeticamente_Click);
             // 
             // btPaisesRentaContinentes
             // 
