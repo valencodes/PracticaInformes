@@ -82,6 +82,7 @@
             this.btPaisesRenta.TabIndex = 2;
             this.btPaisesRenta.Text = "Países con renta";
             this.btPaisesRenta.UseVisualStyleBackColor = true;
+            this.btPaisesRenta.Click += new System.EventHandler(this.btPaisesRenta_Click);
             // 
             // btPaisesAlfabeticamente
             // 

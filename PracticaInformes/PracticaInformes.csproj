@@ -127,6 +127,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <EmbeddedResource Include="ReportPaises.rdlc" />
+    <EmbeddedResource Include="ReportPaisesRenta.rdlc" />
     <None Include="bd_paisesDataSet.xsc">
       <DependentUpon>bd_paisesDataSet.xsd</DependentUpon>
     </None>

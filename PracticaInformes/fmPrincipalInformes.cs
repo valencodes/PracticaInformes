@@ -26,5 +26,10 @@ namespace PracticaInformes
         {
             new fmListadoPaises().ShowDialog();
         }
+
+        private void btPaisesRenta_Click(object sender, EventArgs e)
+        {
+            new fmPaisesRenta().ShowDialog();
+        }
     }
 }
